@@ -1,0 +1,3 @@
+Pressione Windows+R e digite :
+'shell:startup'
+Será aberta uma pasta com todos os aplicativos/scripts que deverão ser executados quando o windows é iniciado. 
