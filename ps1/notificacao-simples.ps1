@@ -1,5 +1,5 @@
-$Title = "Notificação"
-$Message = "Teste Notificação"
+$Title = "Notificacao"
+$Message = "Teste Notificacao"
 $Button1 = New-Object System.Management.Automation.Host.ChoiceDescription "Ir para o Site", "Start-Process 'https://example.com'"
 $Button2 = New-Object System.Management.Automation.Host.ChoiceDescription "Abrir no Explorer", "Start-Process explorer.exe"
 $Options = [System.Management.Automation.Host.ChoiceDescription[]]($Button1, $Button2)
