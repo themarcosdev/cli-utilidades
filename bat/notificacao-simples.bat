@@ -1,2 +1,2 @@
 @echo off
-msg * "Teste Notificação"
+msg * "Teste Notificacao"
