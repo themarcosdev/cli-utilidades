@@ -1,0 +1,9 @@
+php$versao-curl
+zip
+unzip
+php$versao-zip
+php$versao-mbstring
+php$versao-zip
+php$versao-dom
+php$versao-gd
+php$versao-ldap
