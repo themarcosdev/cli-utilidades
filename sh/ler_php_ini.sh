@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ler_php_ini() {
+    echo "\033[31mSeu php.ini se encontra em :\033[0m \033[34m " $(php --ini | grep Loaded | awk -F ' ' '{print $NF}') "\033[0m"
     if [ -z "$1" ]; then
         cat $(php --ini | grep Loaded | awk -F ' ' '{print $NF}')
     else
